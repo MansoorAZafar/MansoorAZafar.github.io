@@ -1,0 +1,50 @@
+[
+  {
+    "name": "AWS",
+    "icon": "devicon-amazonwebservices-plain-wordmark"
+  },
+  {
+    "name": "GCP",
+    "icon": "devicon-googlecloud-plain"
+  },
+  {
+    "name": "Azure",
+    "icon": "devicon-azure-plain"
+  },
+  {
+    "name": "Terraform",
+    "icon": "devicon-terraform-plain"
+  },
+  {
+    "name": "Docker",
+    "icon": "devicon-docker-plain"
+  },
+  {
+    "name": "Git",
+    "icon": "devicon-git-plain"
+  },
+  {
+    "name": "GitHub",
+    "icon": "devicon-github-original"
+  },
+  {
+    "name": "Firebase",
+    "icon": "devicon-firebase-plain"
+  },
+  {
+    "name": "Android Studio",
+    "icon": "devicon-androidstudio-plain"
+  },
+  {
+    "name": "MSSQL",
+    "icon": "devicon-microsoftsqlserver-plain"
+  },
+  {
+    "name": "Grafana",
+    "icon": "devicon-grafana-plain"
+  },
+  {
+    "name": "Cloudflare",
+    "icon": "devicon-cloudflare-plain"
+  }
+]

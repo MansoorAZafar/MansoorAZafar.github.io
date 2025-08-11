@@ -1,0 +1,34 @@
+[
+    {
+      "name": "C++",
+      "icon": "devicon-cplusplus-plain"
+    },
+    {
+      "name": "C",
+      "icon": "devicon-c-original"
+    },
+    {
+      "name": "C#",
+      "icon": "devicon-csharp-plain"
+    },
+    {
+      "name": "Java",
+      "icon": "devicon-java-plain"
+    },
+    {
+      "name": "Python",
+      "icon": "devicon-python-plain"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "devicon-javascript-plain"
+    },
+    {
+      "name": "Dart",
+      "icon": "devicon-dart-plain"
+    },
+    {
+      "name": "Bash",
+      "icon": "devicon-bash-plain"
+    }
+]

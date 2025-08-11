@@ -1,0 +1,26 @@
+[
+  {
+    "name": ".NET",
+    "icon": "devicon-dotnetcore-plain"
+  },
+  {
+    "name": "Springboot",
+    "icon": "devicon-spring-original"
+  },
+  {
+    "name": "Django",
+    "icon": "devicon-django-plain"
+  },
+  {
+    "name": "NextJS",
+    "icon": "devicon-nextjs-plain"
+  },
+  {
+    "name": "React",
+    "icon": "devicon-react-original"
+  },
+  {
+    "name": "Flutter",
+    "icon": "devicon-flutter-plain"
+  }
+]
