@@ -9,7 +9,7 @@
   },
   {
     "icon": "fa-solid fa-warehouse",
-    "image": "N/A",
+    "image": "images/inventory.png",
     "alt": "INVENTORY API",
     "name": "Inventory Microservice",
     "description": "<p>Inventory Microservice used to create and manage items in an inventory</p> <p>Built with: Azure, NodeJS, Docker, Terraform, Firebase.</p>",
