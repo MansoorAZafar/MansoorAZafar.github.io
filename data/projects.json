@@ -12,7 +12,7 @@
     "image": "N/A",
     "alt": "INVENTORY API",
     "name": "Inventory Microservice",
-    "description": "<p>Inventory Microservice used to create and manage items in an inventory</p> <p>Built with: Azure, NodeJS, Docker, Terraform, Firebase .</p>",
+    "description": "<p>Inventory Microservice used to create and manage items in an inventory</p> <p>Built with: Azure, NodeJS, Docker, Terraform, Firebase.</p>",
     "github": "https://github.com/MansoorAZafar/inventory-api"
   },
   {
