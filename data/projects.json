@@ -16,11 +16,11 @@
     "github": "https://github.com/MansoorAZafar/inventory-api"
   },
   {
-    "icon": "fa-solid fa-dungeon",
+    "icon": "fa-solid fa-file-fragment",
     "image": "images/fragments.png",
     "alt": "FRAGMENTS",
     "name": "Fragment Manager",
     "description": "<p>Fragment Microservice used to create and manage fragments with authorization.</p> <p>Built with: NodeJS, Docker, AWS, LocalStack.</p>",
-    "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
+    "github": "https://github.com/MansoorAZafar/fragments"
   }
 ]
