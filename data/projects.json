@@ -8,19 +8,19 @@
     "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
   },
   {
-    "icon": "fa-solid fa-dungeon",
-    "image": "images/__miniQuest.png",
-    "alt": "MINI QUEST",
-    "name": "Mini Quest",
-    "description": "<p>A web-based rouge-like 2D game.</p> <p>Built with: NextJs, NodeJs, ExpressJS, MongoDB.</p>",
-    "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
+    "icon": "fa-solid fa-warehouse",
+    "image": "N/A",
+    "alt": "INVENTORY API",
+    "name": "Inventory Microservice",
+    "description": "<p>Inventory Microservice used to create and manage items in an inventory</p> <p>Built with: Azure, NodeJS, Docker, Terraform, Firebase .</p>",
+    "github": "https://github.com/MansoorAZafar/inventory-api"
   },
   {
     "icon": "fa-solid fa-dungeon",
-    "image": "images/__miniQuest.png",
-    "alt": "MINI QUEST",
-    "name": "Mini Quest",
-    "description": "<p>A web-based rouge-like 2D short game with authentication and authorization.</p> <p>Built with: NextJs, NodeJs, ExpressJS, MongoDB.</p>",
+    "image": "images/fragments.png",
+    "alt": "FRAGMENTS",
+    "name": "Fragment Manager",
+    "description": "<p>Fragment Microservice used to create and manage fragments with authorization.</p> <p>Built with: NodeJS, Docker, AWS, LocalStack.</p>",
     "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
   }
 ]

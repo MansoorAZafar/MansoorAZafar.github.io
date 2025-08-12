@@ -10,7 +10,7 @@ class CellStrategy extends ContainerStrategy {
 
     projectCard.classList.add("cell");
     projectCard.innerHTML = `
-          <i class=${project.icon}></i>
+          <i class="${project.icon}"></i>
           <span>${project.name}</span>
         `;
     return projectCard;
@@ -24,7 +24,7 @@ class CardHeroStrategy extends ContainerStrategy {
 
     projectDetails.innerHTML = `
       <div class="project-icon">
-          <i class=${project.icon}></i>
+          <i class="${project.icon}"></i>
           <img src=${project.image} alt=${project.alt} class="project-image">
       </div>
       <h3>${project.name}</h3>
@@ -69,8 +69,8 @@ const loadProjects = (strategy) => {
   loadItems("data/projects.json", "projects", strategy);
 };
 
-const cellStrategy = new CellStrategy();
-const cardHeroStrategy = new CardHeroStrategy();
+let cellStrategy = new CellStrategy();
+let cardHeroStrategy = new CardHeroStrategy();
 
 loadProjects(cardHeroStrategy);
 loadFrameworks(cellStrategy);

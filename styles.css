@@ -175,7 +175,7 @@ main {
 }
 .projects p {
     font-size: 1.2rem;
-    margin: 1rem;
+    /* margin: 1rem; */
     max-width: 800px;
 }
 .projects-list {
@@ -201,8 +201,8 @@ main {
 }
 .projects .project-details h3 {
     font-size: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    /* margin-top: 0.2rem; */
+    margin-bottom: 0.1rem;
     color: var(--text-color);
     flex-basis: 100%;
 }
@@ -240,7 +240,7 @@ main {
     color: #fff;
 }
 .projects .project-image {
-    width: 70%;
+    width: 90%;
     height: auto;
     border-radius: 5px;
     margin-top: 1rem;
