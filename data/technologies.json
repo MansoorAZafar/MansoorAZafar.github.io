@@ -46,5 +46,13 @@
   {
     "name": "Cloudflare",
     "icon": "devicon-cloudflare-plain"
+  },
+  {
+    "name": "Maven",
+    "icon": "devicon-maven-plain"
+  },
+  {
+    "name": "SQLite",
+    "icon": "devicon-sqlite-plain"
   }
 ]

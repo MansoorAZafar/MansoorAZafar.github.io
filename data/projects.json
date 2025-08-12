@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "fa-solid fa-dungeon",
+    "image": "images/__miniQuest.png",
+    "alt": "MINI QUEST",
+    "name": "Mini Quest",
+    "description": "<p>A web-based rouge-like 2D short game with authentication and authorization.</p> <p>Built with: NextJs, NodeJs, ExpressJS, MongoDB.</p>",
+    "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
+  },
+  {
+    "icon": "fa-solid fa-dungeon",
+    "image": "images/__miniQuest.png",
+    "alt": "MINI QUEST",
+    "name": "Mini Quest",
+    "description": "<p>A web-based rouge-like 2D game.</p> <p>Built with: NextJs, NodeJs, ExpressJS, MongoDB.</p>",
+    "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
+  },
+  {
+    "icon": "fa-solid fa-dungeon",
+    "image": "images/__miniQuest.png",
+    "alt": "MINI QUEST",
+    "name": "Mini Quest",
+    "description": "<p>A web-based rouge-like 2D short game with authentication and authorization.</p> <p>Built with: NextJs, NodeJs, ExpressJS, MongoDB.</p>",
+    "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
+  }
+]

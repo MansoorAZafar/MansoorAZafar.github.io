@@ -30,5 +30,9 @@
     {
       "name": "Bash",
       "icon": "devicon-bash-plain"
+    },
+    {
+      "name": "SQL",
+      "icon": "devicon-azuresqldatabase-plain"
     }
 ]
