@@ -10,12 +10,6 @@
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
-
-<!-- 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
   <link rel="stylesheet" href="styles.css">
 
   <title>Mansoors's Portfolio</title>
@@ -47,13 +41,15 @@
                 <h1>Heya, I'm Mansoor</h1>
                 <p>
                   I'm a software developer with a passion for creating innovative solutions. 
-                  I love coding and enjoy
-                  working on challenging projects and am learning graphics programming. 
-                  I am passionate about technology and always eager to learn more!
+                    I love coding and enjoy working on challenging projects and am learning graphics programming. 
+                    I am passionate about technology and always eager to learn more! Feel free to explore my work on my GitHub 
+                    and connect with me on LinkedIn!
                 </p>
-                <p>Feel free to explore my work on my GitHub and
-                    connect with me on LinkedIn!</p>
                 <div class="links">
+                    <a href="#experience">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Experience</span>
+                    </a>
                     <a href="#skills">
                         <i class="fa-solid fa-code"></i>
                         <span>Skills</span>
@@ -68,9 +64,17 @@
                     </a>
                 </div>
             </div>
-
-
         </section>
+
+        <!-- experience section -->
+        <section class="experience-section" id="experience">
+            <h2>Experience</h2>
+            <div class="experience-box">
+                <div class="experience" id="experiences"></div>
+            </div>
+        </section>
+
+
         <!-- skills section -->
         <section class="skills-section" id="skills">
 
@@ -85,11 +89,10 @@
             <div class="cells" id="frameworks"></div>
 
             <h3>Technologies</h3>
-            <div class="cells" id="technologies">
-                
-            </div>
+            <div class="cells" id="technologies"></div>
 
         </section>
+
         <!-- projects section -->
         <section class="projects">
             <h2>My Projects</h2>
@@ -97,6 +100,7 @@
 
             <div class="projects-list" id="projects"></div>
         </section>
+
         <!-- contact section -->
         <section class="contacts" id="contacts">
             <h2>Contact Me</h2>
@@ -127,6 +131,6 @@
 
     </main>
 
-    <script type="module" src="./script.js""></script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>

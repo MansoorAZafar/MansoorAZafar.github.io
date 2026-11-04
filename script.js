@@ -41,6 +41,42 @@ class CardHeroStrategy extends ContainerStrategy {
   }
 }
 
+class ExperienceStrategy extends ContainerStrategy {
+  build(experience) {
+    const experienceCard = document.createElement("div");
+    experienceCard.classList.add("details");
+
+    experienceCard.innerHTML = `
+        <div class="header">
+            <img
+                class="logo"
+                src="${experience.icon}"
+                alt="${experience.alt || experience.company}"
+            >
+
+            <div class="header-content">
+                <h3>${experience.position}</h3>
+
+                <div class="bottom">
+                    <p class="company">
+                        ${experience.company} · ${experience.location}
+                    </p>
+                    <p class="timeframe">${experience.timeframe}</p>
+                </div>
+            </div>
+        </div>
+
+        <ul class="experience-points">
+            ${experience.points.map(point => `<li>${point}</li>`).join("")}
+        </ul>
+
+        <hr>
+    `;
+
+    return experienceCard;
+  };
+}
+
 const loadItems = (file, containerID, strategy) => {
   const container = document.getElementById(containerID);
   fetch(file)
@@ -51,6 +87,10 @@ const loadItems = (file, containerID, strategy) => {
         container.appendChild(projectCard);
       });
     });
+};
+
+const loadExperiences = (strategy) => {
+  loadItems("data/experience.json", "experiences", strategy);
 };
 
 const loadProgrammingLanguages = (strategy) => {
@@ -69,32 +109,16 @@ const loadProjects = (strategy) => {
   loadItems("data/projects.json", "projects", strategy);
 };
 
+let experienceStrategy = new ExperienceStrategy();
 let cellStrategy = new CellStrategy();
 let cardHeroStrategy = new CardHeroStrategy();
 
+loadExperiences(experienceStrategy);
 loadProjects(cardHeroStrategy);
 loadFrameworks(cellStrategy);
 loadTechnologies(cellStrategy);
 loadProgrammingLanguages(cellStrategy);
 
+experienceStrategy = null;
 cellStrategy = null;
 cardHeroStrategy = null;
-
-/*
-<div class="project-details">
-  <div class="project-icon">
-      <i class="fa-solid fa-gamepad"></i>
-      <img src="images/SpaceGame.webp" alt="Picture of Space Shooter Game GUI" class="project-image">
-  </div>
-  <h3>Space Shooter Game</h3>
-  <p>Java Swing-based 2D space shooter game where you control a spaceship and shoot down an enemy ship. The game is bullet hell style with only one enemy ship on the screen at a time. It features multiple difficulty levels and a game history system.</p>
-  <p> This was built with Java Swing for the GUI and uses a game loop on a different thread to handle the game logic and rendering. The game history system is implemented using a simple file-based storage system.</p>
-  <p> This was built by myself for a school project, focusing on object-oriented programming principles. This was actually my first ever coding project, and as a result, it holds a special place in my portfolio.</p>
-  <div class="project-github">
-      <a href="https://github.com/Pawanjot-Randhawa/Space_Shooter_Game" target="_blank">
-          <i class="fa-brands fa-github"></i>
-          <span>GitHub</span>                        
-      </a>
-  </div>
-</div>
-*/

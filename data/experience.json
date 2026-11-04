@@ -1,0 +1,30 @@
+[
+    {
+        "position": "Software Developer",
+        "company": "NeedList.ORG",
+        "icon": "images/needlist_logo.jpg",
+        "alt": "nlo-logo",
+        "location": "ON",
+        "timeframe": "May 2025 - August 2025",
+        "points": [
+            "Designed and Developed a mono to multi-repo git architecture with GitHub Actions to automate specific environment deployments, speeding up deployments by 1.28x.",
+            "Configured Cloudflare security and performance optimizations, improving website performance by a reported 50%",
+            "Implemented role-based access control, URL signing and Payment Processing via Stripe across the frontend and backend components",
+            "Maintained, moderenized and documented a large legacy codebase through feature development, refactoring, testing, and performance optimizations."
+        ]
+    },
+    {
+        "position": "Software Developer",
+        "company": "Department of National Defence",
+        "icon": "images/dpdc_logo.jpg",
+        "alt": "dpdc-logo",
+        "location": "ON",
+        "timeframe": "Feburary 2026 - May 2026",
+        "points": [
+            "Developed a real-time session tracking system to display and handle active users, session states, and editing conflicts.",
+            "Built a backward-compatible PDF processing component for parsing, transforming and generating legacy and modern formats.",
+            "Extended PostgreSQL database and implemented business logic with React and TypeScript.",
+            "Integrated Azure Blob Storage for managing screenshot uploads and deletions."
+        ]
+    }
+]

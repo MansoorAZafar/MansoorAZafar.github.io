@@ -25,6 +25,11 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 /* navbar styles */
 nav {
     display: flex;
@@ -50,16 +55,19 @@ nav .right a {
     color: var(--text-color);
 }
 
-
+hr {
+    margin-bottom: 1rem;
+}
 
 main {
-    padding: 2rem;
+    /* padding: rem; */
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /*about styles */
 .about {
     display: flex;
@@ -103,6 +111,183 @@ main {
 }
 
 
+/* Experience Styles */
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.experience-box {
+    width: 100%;
+    max-width: 900px;
+    padding: 2rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+/* Title and company information */
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.header-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.bottom p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.company {
+    flex: 1;
+}
+
+.timeframe {
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* Experience bullet points */
+
+.experience-points {
+    padding-left: 1.5rem;
+    margin: 0;
+    list-style-type: disc;
+}
+
+.experience-points li {
+    padding-left: 0.15rem;
+    margin-bottom: 0.7rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.experience-points li:last-child {
+    margin-bottom: 0;
+}
+
+/* Divider */
+
+.details hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 0 0 1rem;
+}
+
+/* Responsive layout */
+
+@media (max-width: 600px) {
+    .experience-section {
+        padding: 1rem;
+    }
+
+    .experience-box {
+        padding: 1.25rem;
+    }
+
+    .header {
+        gap: 1rem;
+    }
+
+    .logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .header-content {
+        height: 65px;
+    }
+
+    .header-content h3 {
+        font-size: 1.15rem;
+    }
+
+    .bottom {
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .bottom p {
+        font-size: 0.85rem;
+    }
+
+    .timeframe {
+        white-space: normal;
+    }
+
+    .experience-points {
+        padding-left: 1.25rem;
+    }
+}
+
+
+.experience-section .header .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    min-width: 0;
+
+    flex-wrap: wrap;
+}
+
+.experience-section .logo {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
 /* skills styles */
 .skills-section {
     display: flex;
@@ -111,10 +296,7 @@ main {
     text-align: center;
     padding: 2rem;
 }
-.skills-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
+
 .skills-section p {
     font-size: 1.2rem;
     margin: 1rem;
@@ -169,10 +351,7 @@ main {
     text-align: center;
     padding: 2rem;
 }
-.projects h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
+
 .projects p {
     font-size: 1.2rem;
     /* margin: 1rem; */
@@ -254,10 +433,7 @@ main {
     text-align: center;
     padding: 2rem;
 }
-.contacts h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
+
 .contacts p {
     font-size: 1.2rem;
     margin: 1rem;
