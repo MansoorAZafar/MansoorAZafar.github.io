@@ -1,5 +1,6 @@
 [
   {
+    "type": "Full-Stack",
     "icon": "fa-solid fa-dungeon",
     "image": "images/__miniQuest.png",
     "alt": "MINI QUEST",
@@ -8,6 +9,7 @@
     "github": "https://github.com/MansoorAZafar/FullStack-React-Game"
   },
   {
+    "type": "Full-Stack",
     "icon": "fa-solid fa-warehouse",
     "image": "images/inventory.png",
     "alt": "INVENTORY API",
@@ -16,11 +18,48 @@
     "github": "https://github.com/MansoorAZafar/inventory-api"
   },
   {
+    "type": "Full-Stack",
     "icon": "fa-solid fa-file-fragment",
     "image": "images/fragments.png",
     "alt": "FRAGMENTS",
     "name": "Fragment Manager",
-    "description": "<p>Fragment Microservice used to create and manage fragments with authorization.</p> <p>Built with: NodeJS, Docker, AWS, LocalStack.</p>",
+    "description": "<p>Fragment Microservice used to create and manage fragments with authorization.</p> <p>Built with: NodeJS, ParcelJS, Docker, AWS, LocalStack.</p>",
     "github": "https://github.com/MansoorAZafar/fragments"
+  },
+  {
+    "type": "Full-Stack",
+    "icon": "fa-regular fa-folder",
+    "image": "images/keepsake.png",
+    "alt": "KEEPSAKE",
+    "name": "KeepSake",
+    "description": "<p>Password-protected, account-less bookmarking and resource-curation platform.</p> <p>Built with: NodeJS, Vite, Docker, TypeScript, Filebase, PostgreSQL.</p>",
+    "github": "https://github.com/MansoorAZafar/Keepsake"
+  },
+  {
+    "type": "Graphics",
+    "icon": "fa-regular fa-cloud",
+    "image": "images/cloud-point-renderer.png",
+    "alt": "Cloud Point Renderer",
+    "name": "Cloud Point Renderer",
+    "description": "<p>OpenGL application to render a file with vertices and faces as a point cloud using baycentric's formula</p> <p>Built with: C++, CMake, OpenGL</p>",
+    "github": "https://github.com/MansoorAZafar/Cloud-Point-Renderer"
+  },
+  {
+    "type": "Misc",
+    "icon": "fa-solid fa-bullseye",
+    "image": "images/uds.png",
+    "alt": "uds",
+    "name": "User Defined Strategy",
+    "description": "<p>console application that let's users either use pre-defined payment strategies or define their own custom payment strategy to be used</p> <p>Built with: Java </p>",
+    "github": "https://github.com/MansoorAZafar/UserDefinedStrategy"
+  },
+  {
+    "type": "Tools & Utilities",
+    "icon": "fa-regular fa-map",
+    "image": "images/MazeSoftware.png",
+    "alt": "MazeSoftware",
+    "name": "Maze Builder and Solver",
+    "description": "<p>An interactive JavaFX tool for designing mazes and visualizing pathfinding algorithms (A*, Dijkstra) in real time. Uses C++ via JNI for efficient algorithm execution and SQLite for persisting maze states.</p> <p>Built with: Java, C++, Bash, Maven, JavaFX, SQLite</p>",
+    "github": "https://github.com/Pawanjot-Randhawa/Maze-BuilderSolver"
   }
 ]

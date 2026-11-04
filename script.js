@@ -105,8 +105,37 @@ const loadFrameworks = (strategy) => {
   loadItems("data/frameworks.json", "frameworks", strategy);
 };
 
-const loadProjects = (strategy) => {
-  loadItems("data/projects.json", "projects", strategy);
+const loadProjects = async (strategy) => {
+  const container = document.getElementById("projects");
+  const filters = document.getElementById("project-filters");
+  const response = await fetch("data/projects.json");
+  const projects = await response.json();
+  const types = [...new Set(projects.map((project) => project.type).filter(Boolean))];
+  const defaultType = types.includes("Full-Stack") ? "Full-Stack" : types[0];
+
+  filters.innerHTML = types.map((type) => `
+    <label class="project-filter${type === defaultType ? " is-active" : ""}">
+      <input type="radio" name="project-type" value="${type}"${type === defaultType ? " checked" : ""}>
+      <span>${type}</span>
+    </label>
+  `).join("");
+
+  const renderProjects = (selectedType = defaultType) => {
+    container.replaceChildren(...projects
+      .filter((project) => project.type === selectedType)
+      .map((project) => strategy.build(project)));
+  };
+
+  filters.addEventListener("change", (event) => {
+    if (event.target.matches('input[name="project-type"]')) {
+      filters.querySelectorAll(".project-filter").forEach((label) => {
+        label.classList.toggle("is-active", label.contains(event.target));
+      });
+      renderProjects(event.target.value);
+    }
+  });
+
+  if (defaultType) renderProjects();
 };
 
 let experienceStrategy = new ExperienceStrategy();
