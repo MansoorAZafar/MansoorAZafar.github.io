@@ -61,5 +61,14 @@
     "name": "Maze Builder and Solver",
     "description": "<p>An interactive JavaFX tool for designing mazes and visualizing pathfinding algorithms (A*, Dijkstra) in real time. Uses C++ via JNI for efficient algorithm execution and SQLite for persisting maze states.</p> <p>Built with: Java, C++, Bash, Maven, JavaFX, SQLite</p>",
     "github": "https://github.com/Pawanjot-Randhawa/Maze-BuilderSolver"
+  },
+  {
+    "type": "Full-Stack",
+    "icon": "fa-solid fa-money-check-dollar",
+    "image": "images/subscription-manager.png",
+    "alt": "Subscriptions",
+    "name": "Subscriptions Manager",
+    "description": "<p>A Subscription Manager, a place to manage your subscriptions for you and your friends.</p> <p>Built with: Java, NodeJS, React, SpringBoot, Docker, NeonDB</p>",
+    "github": "https://github.com/MansoorAZafar/Subscription-Manager"
   }
 ]
